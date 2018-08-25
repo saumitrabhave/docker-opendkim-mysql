@@ -12,4 +12,4 @@ cd opendkim-2.10.3  && \
 ./configure --with-db --with-ldns --with-libcurl --with-libevent --with-libjansson --with-lua --with-milter --with-odbx --with-openssl --with-sql-backend --enable-filter --enable-poll --enable-query_cache  && \
 make  && \
 make install  && \
-apk del alpine-sdk lua5.1-dev
+apk del alpine-sdk
